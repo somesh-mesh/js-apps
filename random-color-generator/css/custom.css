@@ -1,0 +1,50 @@
+/* General reset */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* body{
+    transition: 2s;
+} */
+
+
+/* Main container styling */
+.main {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Container styling */
+.container {
+    width: 30rem;
+    padding: 10px;
+    border-radius: 10px;
+    font-size: 40px;
+    background-color: white;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;  /* Center the content inside the container */
+}
+
+/* Button styling */
+button {
+    font-size: 30px;
+    background-color: black;
+    color: white;
+    padding: 10px 20px;  /* Added padding for better button appearance */
+    border: none;  /* Removed the default button border */
+    border-radius: 5px;  /* Optional: add rounded corners to button */
+    cursor: pointer;  /* Make it clear it's clickable */
+    transition: background-color 0.3s ease;  /* Smooth transition for hover effect */
+}
+
+button:hover {
+    background-color: #444;  /
+}
