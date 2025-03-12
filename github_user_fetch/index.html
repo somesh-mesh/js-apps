@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Centered Search Bar</title>
+    <link rel="stylesheet" href="custom.css">
+</head>
+<body>
+    <div class="container">
+        <div class="search-container">
+            <input type="text" id="username" placeholder="Enter GitHub Username">
+            <button onclick=fetchGitHubUser()>Search</button>
+        </div>
+        <div class="user-card" id="user-card" style="display: none;">
+            <img id="avatar" src="" alt="User Avatar" class="avatar">
+            <p id="name">Username</p>
+            <p id="bio">Bio: </p>
+            <p id="location">Location: </p>
+            <p id="followers">Followers: 0</p>
+            <p id="following">Following: 0</p>
+            <p id="repos">Repos: 0</p>
+        </div>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
